@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const Index = () => (
+const AboutPage = () => (
   <div>
     <ul className="menu">
       <li>
@@ -14,8 +14,8 @@ const Index = () => (
         </Link>
       </li>
     </ul>
-    <h1>Hello Welcome To Next.js</h1>
+    <h1>This is the About Page!</h1>
   </div>
 )
 
-export default Index;
+export default AboutPage;
